@@ -4,12 +4,23 @@
 <head>
     <meta charset="utf-8" />
     <title></title>
+      <style class="inlinestyle">
+        #counter {
+            margin: 10 auto;
+            text-align: center;
+        }
+    </style>
+       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link href="countdowncube.css" rel="stylesheet" />
+    <script src="countdowncube.js"></script>
 </head>
 <body style="background-color:lightskyblue">
-    <img src="Image/Logo.jpg" style="height:600px;width:1600px" />
-    <br/>
-    <h1>Hi I am Prashant and currently this Application is under construction..I will be back very soon </h1>
-    <br/>
+    <img src="Image/Logo.jpg" style="height:450px;width:1600px" />
+    <h1>Hi ,I am Prashant and currently this Application is under construction and will be up after  </h1>
+    <div id='counter' style="font:100px"></div>  
+    <script>
+                    $('#counter').countdownCube({target: new Date( 'October 19, 2017 05:00:00' ), cubeSize: 100 } );
+    </script>
     <h3>visit  <b><a href="http://www.prashanttripathi.com">my personal site </a></b> for any information</h3>
 </body>
 </html>
