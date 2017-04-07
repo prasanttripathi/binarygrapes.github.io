@@ -389,7 +389,7 @@
     		
             /*target: new Date(),*/
     		cubeSize: 50,
-    		background: 'rgba( 255, 150, 150, 0.8 )',
+	    background: 'rgba( 175, 130, 100, 0.8 )',
     		color: 'white',
         };
 
